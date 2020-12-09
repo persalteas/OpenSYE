@@ -15,7 +15,7 @@ import sys
 # Constant definitions. They can be changed by using command line options.
 YEAR = datetime.datetime.now().year
 NEXERCICES = 2
-AUTHOR = "sergiu.ivanov@univ-evry.fr"
+AUTHOR = "The Internet"
 FILENAME = "my_first_SYE_exercice.tex"
 LANG = "FR"
 L33TLVL = 0
@@ -442,7 +442,7 @@ def generate_latex_header(filename, title):
         \\usepackage{tikz}
         \\usetikzlibrary{positioning,arrows.meta}
         \\author{%s}
-        \\date{sergiu.ivanov@univ-evry.fr\\\\%d-%d}
+        \\date{Generated with OpenSYE\\\\%d-%d}
         \\title{%s}
         \\hypersetup{
           pdfauthor={%s},
